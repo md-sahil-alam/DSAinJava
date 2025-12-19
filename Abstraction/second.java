@@ -7,3 +7,4 @@ public class Second{
       System.out.println(s1.gyear);
       s1.sayhi();
   }
+}
