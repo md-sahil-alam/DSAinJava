@@ -9,7 +9,7 @@ class Bird{
 class Parrate extends Bird{
   String type = "parrate";
   public void sound(){
-    System.out.println(super.type);
+    System.out.println(super.type);//accessing from parent
   }
 } 
 
