@@ -26,5 +26,4 @@ class Polimorphism {
     horse.AnimalSound();
     cow.AnimalSound();
   }
-
 }
