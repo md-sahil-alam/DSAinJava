@@ -1,3 +1,4 @@
+package Inheritence;
 class Parents{
   protected String lastName ="alam";//child can access protected variable of parents
   protected String property = "7cr"; 
