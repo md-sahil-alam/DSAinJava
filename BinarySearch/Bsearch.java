@@ -11,7 +11,10 @@ public class Bsearch {
     int start = 0;
     int end = arr.length-1;
     for (int i = 0; i < arr.length; i++) {
-      int mid = (start+end)/2;
+      // int mid = (start+end)/2;
+      // (start+end)/2; may exceed range of intiger
+      // start+(end-start)/2; better way to find mid 
+      int mid = start+(end-start)/2;
       if(arr[mid]==target){
         return mid;
       }else if(target < arr[mid]){
