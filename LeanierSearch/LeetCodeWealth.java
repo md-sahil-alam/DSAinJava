@@ -10,7 +10,7 @@ public class LeetCodeWealth {
     for(int i = 0 ; i< nums.length; i++){
       int Wealth = 0;
       for (int n : nums[i]) {
-           Wealth+=n;
+        Wealth+=n;
       }
       System.out.println("Wealthof person "+" "+i+" = "+Wealth);
     }
