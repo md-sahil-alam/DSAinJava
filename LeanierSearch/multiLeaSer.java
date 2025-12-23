@@ -10,7 +10,7 @@ public class multiLeaSer {
     {54,34,87,9,44,7,1},
     {23,67,3},
   };
-  int target = 0;
+  int target = 44;
 
   find(arr,target);
   int[] ans = find(arr, target);
