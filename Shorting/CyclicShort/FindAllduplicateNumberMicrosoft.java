@@ -1,4 +1,4 @@
-package Shorting;
+package Shorting.CyclicShort;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,7 +27,7 @@ public class FindAllduplicateNumberMicrosoft {
 
         List<Integer> list = new ArrayList<>();
         for (int j = 0; j < arr.length; j++) {
-            if (arr[j] != j + 1) {
+            if (arr[j] != j + 1) {//check if arr[j] is in corect index if not it is duplicate
                 list.add(arr[j]);
             }
         }
