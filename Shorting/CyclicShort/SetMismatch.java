@@ -11,7 +11,6 @@ public class SetMismatch {
 
     static int[] find(int[] arr) {
         int i = 0;
-        int[] ans = {-1, -1};
         while (i < arr.length) {
 
             int correct = arr[i] - 1;
