@@ -3,7 +3,7 @@ package Recursion;
 public class fibonachi {
 
     public static void main(String[] args) {
-        System.out.println(fibo(7));
+        System.out.println(fibo(50));
 
     }
 
